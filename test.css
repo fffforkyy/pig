@@ -1,0 +1,213 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #E0E1DD;
+    color: #333;
+  }
+nav{
+    background-color: #3C6E71;
+    text-align: center;
+    font-family: Arial;
+}
+nav a{
+    display: inline-block;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #F5EBE0;
+    color: #353535;
+}
+header{
+    background-color: #E0E1DD;
+    color: #353535;
+    text-align: center;    
+    justify-content: space-evenly;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+h1{
+    color: #415A77;
+    align-items: center;
+    font-size: 50px;
+}
+.photo{
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section{
+    max-width: 1000px; 
+    margin: 30px auto;  
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 25px;
+}
+h2{
+    color: #415A77;
+    text-align: center;
+    font-size: 30px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.a1{
+    width: fit-content;
+    margin: 0 auto; 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hobby{
+    text-align: center;    
+    justify-content: space-evenly;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.skills{
+    width: 100%;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.skill-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skill-name{
+    width: 200px;
+    font-weight: bold;
+}
+.frame{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #E0E1DD;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.bar1{
+    height: 100%;
+    background-color: #778DA9;
+    position: relative;
+    animation: bar1 1s ease-out;
+    border-radius: 15px 15px;
+}
+@keyframes bar1{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 80%;
+    }
+}
+.bar2{
+    height: 100%;
+    background-color: #778DA9;
+    position: relative;
+    animation: bar2 1s ease-out;
+    border-radius: 15px 15px;
+}
+@keyframes bar2{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 70%;
+    }
+}
+.bar3{
+  height: 100%;
+  background-color: #778DA9;
+  position: relative;
+  animation: bar3 1s ease-out;
+  border-radius: 15px 15px;
+}
+@keyframes bar3{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 70%;
+  }
+}
+.bar4{
+  height: 100%;
+  background-color: #778DA9;
+  position: relative;
+  animation: bar4 1s ease-out;
+  border-radius: 15px 15px;
+}
+@keyframes bar4{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 85%;
+  }
+}
+.percent{
+    position: absolute;
+    right: -40px;
+    top: 60%;
+    transform: translateY(-50%);
+    color: #333;
+    font-weight: bold;
+    white-space: nowrap;
+}
+h3{
+    margin: 0;
+    font-size: 16px;
+    color: #5F7470;
+}
+.time{
+    margin: 4px;
+    font-size: 15px;
+    color: #333;
+}
+.experience{
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .photo{
+        margin-bottom: 10px;
+    }
+    .hobby{
+        flex-direction: column;
+        text-align: center;
+    }
+    section{
+        padding: 20px 15px;
+        margin: 10px 20px;
+    }
+    .skills{
+    width: 100%;
+    }
+    .frame{
+    width: 100%;
+    }
+    .percent{
+    right: 8px;
+    }
+}
+  
